@@ -115,7 +115,7 @@
 }
 
 .menu-icon div{
-   display: flex;
+   display: block;
    background: var(--bg-color);
    height: 2px; 
    width: 24px;
@@ -839,6 +839,7 @@
   top: 0;
   right: -100%;
   width: 300px;
+  z-index: -100;
   height: 100vh;
   background: var(--box-color);
   display: flex;
@@ -901,6 +902,31 @@
 
 }
 
+@media (max-width:635px) {
+  .about-content{
+    grid-template-columns: 1fr;
+  }
+  .about-data{
+    font: size 0.9rem;
+  }
+
+  .about-data h2{
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    font-weight: 600;
+    margin: 0.8rem 0;
+  }
+
+  .about-text{
+    font-size: 0.825rem;
+    margin-bottom: 1.3rem;
+  }
+
+
+}
+
+
+
 @media only screen and (max-width:400px){
 
   
@@ -943,4 +969,53 @@
     /* background-color: #5a24ed38; */
 }
 
+}
+
+@media (max-width:450px){
+  
+  .home{
+    min-height: 485px;
+    padding-top: 5rem;
+  }
+
+  .home-img{
+    width: 140px;
+    height: 140px;
+  }
+
+  .home-img img{
+    width: 140px;
+    height: 140px;
+  }
+
+  .home-text h2{
+    font-size: 2.1rem;
+    line-height:3.2rem ;
+  }
+
+  .home-text p br{
+    display: contents;
+  }
+
+  .heading{
+    font-size: 3rem;
+  }
+
+  .about-data h2{
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    margin: 0.6rem 0;
+  }
+
+  .footer-links{
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+}
+
+@media (max-width:325px){
+  .navbar{
+    width: 100%;
+  }
 }
