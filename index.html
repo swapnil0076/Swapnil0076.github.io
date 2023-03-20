@@ -28,11 +28,11 @@
 
                 <ul class="navbar">
                     <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#about" class="nav-link" >About</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
-                    <li><a href="Images\Swapnil-Dhiman-Resume.pdf" download onclick="window.open('https://drive.google.com/file/d/1R_ZvEje4lq3BXfJD3T9SNssHCTlFx4Ek/view?usp=share_link');"
+                    <li><a href="Images\Swapnil-Dhiman-Resume.pdf" id="resume-button-1" download onclick="window.open('https://drive.google.com/file/d/1R_ZvEje4lq3BXfJD3T9SNssHCTlFx4Ek/view?usp=share_link');"
                              class="nav-link">Resume</a></li>
                 </ul>
                 <!-- menu Icon -->
@@ -77,7 +77,7 @@
         </section>
 
         <!-- About -->
-        <section class="about container" id="about">
+        <section class="about container" id="about" id="about" class="about section">
 
             <!-- heading -->
             <h2 class="heading">About</h2>
@@ -94,8 +94,8 @@
                 <div class="about-data">
                     <span>About Me</span>
                     <h2>Java Backend Developer</h2>
-                    <a href="Images\Swapnil-Dhiman-Resume (2).pdf" class="btn" download="">Resume <i
-                            class='bx bx-download'></i></a>
+                    <a href="Images\Swapnil-Dhiman-Resume .pdf" class="btn" id="resume-button-2"    download onclick="window.open('https://drive.google.com/file/d/1R_ZvEje4lq3BXfJD3T9SNssHCTlFx4Ek/view?usp=share_link');"    download="">Resume <i
+                      class='bx bx-download'></i></a>
                 </div>
                 <div class="about-text">
                     <p>
@@ -153,7 +153,7 @@
 
         <section class="skills" id="skills">
             <h2 class="heading">Tech Stack</h2>
-            <div class="skill-wrapper">
+            <div class="skill-wrapper"  id="skills">
                 <div class="skills-icons">
                     <img src="ICONS/java.png" alt="java" class="icon">
                     <h2>Java</h2>
@@ -219,7 +219,7 @@
 
             <h2 class="heading">My Github Contribution</h2>
             <div class="calender-up">
-                <div class="calendar">
+                <div class="calendar" class="react-activity-calendar">
                     <!-- Loading stuff -->
                     Loading the data just for you.
                 </div>
@@ -242,15 +242,15 @@
 
         </section>
 
-        <section id="projects">
+        <section id="projects" >
             <h2 class="heading">Some of my Recent Projects</h2>
-            <div class="projects-container">
-                <div class="project-container project-card">
+            <div class="projects-container" >
+                <div class="project-container project-card" class="project-card">
                     <img src="Images\Screenshot_363.png" class="project-img" alt="indian-Express">
 
                     <div class="project-about">
                         <h3 class="project-title">Indian Express Clone</h3>
-                        <p class="project-details">The Indian Express is an English-language Indian daily newspaper
+                        <p class="project-details" class="project-description">The Indian Express is an English-language Indian daily newspaper
                             founded in 1932.
                             Indian Express Limited is an Indian news media publishing
                             company. It publishes several widely circulated dailies.</p>
@@ -270,7 +270,7 @@
 
                     <div class="project-about">
                         <h3 class="project-title">Apple Tv Clone</h3>
-                        <p class="project-details">Apple TV+ is a streaming service from Apple. It features
+                        <p class="project-details" class="project-description">Apple TV+ is a streaming service from Apple. It features
                             exclusive Apple Original shows and movies from some of
                             the industry's top talent.</p>
                             <div>
@@ -287,7 +287,7 @@
 
                     <div class="project-about">
                         <h3 class="project-title">YouTube Clone</h3>
-                        <p class="project-details">YouTube is a global online video sharing and social media platform.
+                        <p class="project-details" class="project-description">YouTube is a global online video sharing and social media platform.
                             YouTube is a video sharing service where users can watch, like, share, comment and
                             upload their own videos.
 
