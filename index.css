@@ -70,6 +70,10 @@
 
  }
 
+ #nav-menu{
+
+ }
+
  .nav{
     display: flex;
     align-items: center;
@@ -140,7 +144,7 @@
 
 /* Home */
 
-.home{
+.home1{
     min-height: 600px;
     display: flex;
     align-items: center;
@@ -158,7 +162,7 @@
     justify-content: center;
 }
 
-.home-img{
+.home-img1{
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -167,7 +171,7 @@
     margin-bottom: 2rem;
 }
 
-.home-img{
+.home-img1{
     width: 180px;
     height: 180px;
     object-fit: cover;
@@ -239,6 +243,10 @@
     background: var(--container-color);
 }
 
+#about.about.section{
+
+}
+
 .social .bx:hover{
     background: var(--main-color);
     transition: 0.3s all linear;
@@ -265,6 +273,9 @@
     width: 30%;
 }
 
+.project-description{
+
+}
 .about-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -328,6 +339,14 @@
     align-items: center;
 }
 
+#user-detail-intro{
+  display: grid;
+    width: 100%;
+    text-align: center;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+
 .about-info{
     display: flex;
     
@@ -376,16 +395,29 @@
     font-size: var(--normal-font);
     color: var(--text-color);
   }
+
   .icon {
     width: 3rem;
   }
 
+  .skills-card-img{
+    width: 3rem;
+  }
 
   .skills-icons{
     background-color: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5); ;
     border-radius: 11px;
     padding: 2px;
     margin: 5px;
+  }
+
+  .skills-card{
+
+    background-color: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5); ;
+    border-radius: 11px;
+    padding: 2px;
+    margin: 5px;
+
   }
 
   /* github calender */
@@ -716,6 +748,14 @@
     transition: 0.3s all linear;
   }
 
+  #contact-phone{
+
+    color: white;
+
+  }
+  #contact-email{
+    color: white;
+  }
 
 /* #projects .item .right .buttons . */
   
@@ -737,7 +777,7 @@
   }
 
   .heading{
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   /* Project Section  */
@@ -752,11 +792,11 @@
 }
 
 .project-img{
-  width: 70%;
+  width: 400px;
   margin-top: 2.5%;
 }
 
-.project-card{
+.project-card1{
   /* border: 1px solid red; */
   width: 80%;
  margin: auto;
@@ -784,7 +824,7 @@
     font-size: 1.1rem;
   }
 
-  .home{
+  .home1{
     min-height: 500px;
     padding-top: 6rem;
   }
@@ -825,7 +865,7 @@
     width: 10%;
   }
   .project-container {
-    width: 17.875rem;
+    /* width: 17.875rem; */
     grid-template-columns: repeat(1,auto);
   }
 
@@ -857,6 +897,13 @@
 
 /* Project Section  */
 
+.project-description{
+  
+}
+.project-details{
+
+}
+
 .tech-img{
   height: 25px;
 }
@@ -871,7 +918,7 @@
   margin-top: 2.5%;
 }
 
-.project-card{
+.project-card1{
   /* border: 1px solid red; */
   width: 80%;
  margin: auto;
@@ -948,9 +995,9 @@
   margin-top: 2.5%;
 }
 
-.project-card{
+.project-card1{
   /* border: 1px solid red; */
-  width: 80%;
+  /* width: 80%; */
  margin: auto;
 }
 
@@ -970,6 +1017,25 @@
 }
 
 }
+.react-activity-calendar{
+
+}
+
+.github-stats{
+
+}
+
+.github-stats{
+
+}
+.section{
+
+}
+
+.project-card{
+  
+}
+
 
 @media (max-width:635px) {
   .about-content{
@@ -992,7 +1058,7 @@
   }
 
   /* Project Section  */
-  .project-card{
+  .project-card1{
     position: initial;
   }
   
@@ -1078,17 +1144,17 @@
 
 @media (max-width:450px){
   
-  .home{
+  .home1{
     min-height: 485px;
     padding-top: 5rem;
   }
 
-  .home-img{
+  .home-img1{
     width: 140px;
     height: 140px;
   }
 
-  .home-img img{
+  .home-img1 img{
     width: 140px;
     height: 140px;
   }
@@ -1103,7 +1169,7 @@
   }
 
   .heading{
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .about-data h2{
@@ -1118,8 +1184,8 @@
   }
 /* Project */
 
-.project-card{
-  position: initial;
+.project-card1{
+ 
 }
 
 .project-about{
@@ -1143,6 +1209,9 @@
 
 .tech-img{
   height: 15px;
+}
+.projects-container{
+  text-align: center;
 }
 
 .project-btn{
