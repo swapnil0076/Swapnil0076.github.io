@@ -463,12 +463,13 @@
       display: none;
   }
   
-  .calendar {
-      width: 750px;
+  .react-activity-calendar {
+      width: 650px;
       font-family: Helvetica, arial;
       border: 1px solid #DDDDDD;
       border-radius: 3px;
       min-height: 243px;
+      overflow-x: auto;
       text-align: center;
       margin: 0 auto;
   }
@@ -792,7 +793,7 @@
 }
 
 .project-img{
-  width: 400px;
+  width: 350px;
   margin-top: 2.5%;
 }
 
@@ -857,6 +858,8 @@
 .calendar{
   width: 90%;
 }
+
+
   .js-calendar-graph-svg{
     width: 90%;
   }
@@ -991,7 +994,7 @@
 }
 
 .project-img{
-  width: 70%;
+  width: 60%;
   margin-top: 2.5%;
 }
 
@@ -1019,7 +1022,8 @@
 }
 .react-activity-calendar{
 
-  
+width: 70%;  
+height: 20%;
 
 }
 
