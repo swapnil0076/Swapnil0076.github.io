@@ -907,6 +907,15 @@
 .project-details{
 margin: 5px 5px;
 }
+.project-github-link{
+  text-align: center;
+  margin: 2px;
+}
+
+.project-deployed-link{
+  text-align: center;
+  margin: 2px;
+}
 
 .tech-img{
   height: 25px;
