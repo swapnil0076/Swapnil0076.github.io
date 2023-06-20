@@ -64,3 +64,13 @@ let header = document.querySelector('header');
 window.addEventListener('scroll',() =>{
     header.classList.toggle("header-active", window.scrollY>0)
 })
+
+
+let resbut1 = document.getElementById("resume-button-1").addEventListener('click', function() {
+    window.open('https://drive.google.com/file/d/1R_ZvEje4lq3BXfJD3T9SNssHCTlFx4Ek/view?usp=share_link');
+  });
+
+
+  let resbut2 = document.getElementById("resume-button-2").addEventListener('click', function() {
+    window.open('https://drive.google.com/file/d/1R_ZvEje4lq3BXfJD3T9SNssHCTlFx4Ek/view?usp=share_link');
+  });
