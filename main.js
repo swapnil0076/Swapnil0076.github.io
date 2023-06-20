@@ -71,8 +71,11 @@ let resbut1 = document.getElementById("resume-button-1").addEventListener('click
 
   let resbut2 = document.getElementById("resume-button-2").addEventListener('click',NewTab);
   function NewTab() {
-    window.open(
-      "https://drive.google.com/file/d/1R_ZvEje4lq3BXfJD3T9SNssHCTlFx4Ek/view?usp=share_link",
-      "_blank"
-    );
+    // window.open(
+    //   "https://drive.google.com/file/d/1R_ZvEje4lq3BXfJD3T9SNssHCTlFx4Ek/view?usp=share_link",
+    //   "_blank"
+    // );
+
+    window.location.href = "https://drive.google.com/file/d/1R_ZvEje4lq3BXfJD3T9SNssHCTlFx4Ek/view?usp=share_link";
+
   }
